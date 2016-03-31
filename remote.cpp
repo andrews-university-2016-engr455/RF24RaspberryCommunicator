@@ -5,6 +5,9 @@
 #include <iostream>
 #include <RF24/RF24.h>
 
+// Needed in order to get sleep to work
+#include <unistd.h>
+
 using namespace std;
 //RF24 radio("/dev/spidev0.0",8000000 , 25);  
 //RF24 radio(RPI_V2_GPIO_P1_15, RPI_V2_GPIO_P1_24, BCM2835_SPI_SPEED_8MHZ);
