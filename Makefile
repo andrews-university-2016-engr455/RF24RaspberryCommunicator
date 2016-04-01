@@ -21,7 +21,7 @@ CCFLAGS=-Ofast -mfpu=vfp -mfloat-abi=hard -march=armv7-a -mtune=arm1176jzf-s
 
 # define all programs
 #PROGRAMS = scanner pingtest gettingstarted
-PROGRAMS = remote
+PROGRAMS = remote poller
 SOURCES = ${PROGRAMS:=.cpp}
 
 all: ${PROGRAMS}
